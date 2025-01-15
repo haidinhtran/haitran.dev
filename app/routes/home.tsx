@@ -1,10 +1,14 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import type { Route } from './+types/home';
+import { Welcome } from '../welcome/welcome';
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: 'Hai Tran - Professional Software Engineer | haitran.dev' },
+    {
+      name: 'description',
+      content:
+        'haitran.dev - a professional software engineer specializing in web development',
+    },
   ];
 }
 
