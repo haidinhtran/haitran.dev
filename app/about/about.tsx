@@ -3,12 +3,12 @@ export default function About() {
   return (
     <div className='flex flex-col space-y-4'>
       <img
-        className='size-44 rounded-full blur-sm hover:blur-none cursor-pointer'
+        className='size-32 rounded-full blur-sm hover:blur-none cursor-pointer'
         src={avatar}
-        alt='Hai Tran'
+        alt='Your Name'
       />
-      <h1 className='text-2xl font-bold'>Hai Tran</h1>
-      <p>Professional Software Engineer</p>
+      <h1 className='text-2xl font-bold'>Your Name</h1>
+      <p>Your Title / Position</p>
     </div>
   );
 }
